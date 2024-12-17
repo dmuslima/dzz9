@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Mulish", serif;
+}
+
+.container{
+    padding: 0 130px;
+    margin: 0 auto;
+}
+.header{
+    width: 1440px;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav ul{
+    display: flex;
+    gap: 40px;
+}
+.nav ul li{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.59px;
+    color: #1F1534;
+}
+.nav ul li:hover{
+    font-weight: 700;
+}
+
+
+.header-content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 91px 0;
+}
+.header-content_text{
+    width: 440px;
+}
+.header-content_text h1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 56px;
+}
+.header-content_text p{
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 32px;
+    color: #7D7987;
+    margin-top: 26px;
+    margin-bottom: 35px;
+}
+.header-content_text button{
+    width: 197.75px;
+    height: 49.12px;
+    border-radius: 55px;
+    background-color: #458FF6;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 21.34px;
+    color: white;
+    border: none;
+    transition: all 0.5s;
+}
+.header-content_text button:hover{
+    color: #458FF6;
+    background-color: rgba(255, 0, 0, 0);
+    border: 2px solid #458FF6;
+}
+.header2{
+    width: 1180px;
+    height: 1105.74px;
+}
+.header-content1 h4{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 56px;
+}
+.header-content1 p{
+    text-align: center;
+    color:#7D7987;
+    margin-top: 61px;
+    margin-left: 113px;
+    margin-right: 11px;
+}
+.card{
+    background-color:#E7E7E7;
+    width: 380px;
+    height: 380px;
+    border-radius: 20px;
+    transition: all 0.3s;
+}
+.kartocki{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 36px;
+}
+.card img{
+    margin: 68px 244px 10px 41px;
+}
+.card p{
+    color: #7D7987;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    margin: 1px 58px 28px 41px;
+}
+.card h2{
+    margin: 30px 170px 10px 41px;
+}
+.img1{
+    width: 96px;
+    height: 93px;
+}
+.img2{
+    width: 67px;
+    height: 91px;
+}
+.img3{
+    width: 70px;
+    height: 100px;
+}
+.img4{
+    width: 70px;
+    height: 100px;
+}
+.img5{
+    width: 84px;
+    height: 74px;
+}
+.img6{
+    width: 70px;
+    height: 100px;
+}
+.b1{
+    color: #458FF6;
+    background-color: rgba(255, 0, 0, 0);
+    border: 2px solid #458FF6;
+    width: 197.75px;
+    height: 49.12px;
+    border-radius: 55px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 21.34px;
+    align-content: center;
+    margin: 32px 494px 0px 496px;
+    transition: all 0.5s;
+}
+.card:hover{
+    background-color: #458FF6;
+    color: white;
+}
+.card p:hover{
+    color: white;
+}
+.b1:hover{
+    background-color: #458FF6;
+    color: white;
+}
+h1{
+    text-align: center;
+    margin-top:76px;
+}
+.section-content_img{
+    width: 580px;
+    height: 469px;
+    margin-left: 0px;
+}
+.section-content_text h1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 56px; 
+    margin-bottom: 62px;
+}
+.section-content_text p{
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 32px;
+    color: #7D7987;
+    margin-top: 26px;
+    margin-bottom: 35px;
+}
+.section-content_text{
+    width: 435px;
+    height: 396.27px;
+    margin-right: 250px;
+    
+}
+.section{
+    width:1440px;
+    height: 469.15px;
+    display:flex;
+    justify-content: space-between;
+    margin: 75px 130px 0px 130px;
+}
+.b2{
+    color: #458FF6;
+    background-color: rgba(255, 0, 0, 0);
+    border: 2px solid #458FF6;
+    width: 197.75px;
+    height: 49.12px;
+    border-radius: 55px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 21.34px;
+    align-content: center;
+    margin: 41px 233px 0px 0px;
+    transition: all 0.5s;
+}
+.b2:hover{
+    background-color: #458FF6;
+    color: white; 
+}
+.cart{
+    width: 380px;
+    height: 516px;
+    background-color: #f4efef;
+}
+.div2{
+    width: 1180px;
+    height: 782.74px;
+    margin-top: 152px;
+    margin: 152px 130px 230px 130px;
+    }
+.hh2{
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: center;
+    margin-bottom: 109px;
+}
+.kartochki{
+    width: 1180px;
+    height:516pxpx;
+    display: flex;
+    justify-content: space-between;
+}
+.cart img{
+    width: 380px;
+    height: 240px;
+    border-radius: 20px;
+}
+h3{
+    font-family: Mulish;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+    margin: 30px 99px 10px 30px;
+}
+.p2{
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #7D7987;
+    margin: 10px 84px 18px 30px;
+}
+.p1{
+    color: #4089ED;
+    font-family: Mulish;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 28px;
+    margin: 18px 263px 37px 30px;
+}
+.p1::after{
+    content: " ->";
+    color: #4089ED;
+}
+.footer{
+    width: 1600px;
+    height: 432px;
+    background-color: #5A98F2;
+    display: flex;
+    justify-content: space-between;
+    padding: 159px 220px 131px 200px;
+}
+.f1{
+    width: 386px;
+    height: 142px;
+}
+.f2{
+    width: 97px;
+    height: 101px;
+}
+.f3{
+    width: 84px;
+    height: 101px;
+}
+.f4{
+    width: 132px;
+    height: 101px;
+}
+.f1 p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    color: white;
+    margin-top: 17px;
+}
+.f1 img{
+    width: 170px;
+    height: 41px;
+}
+.footer h4{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25.1px;
+    color: white;
+}
+.f2p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22.59px;
+    margin-top: 20px;
+    color: white;
+}
+.fp{
+    color: white;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22.59px;
+}
+
